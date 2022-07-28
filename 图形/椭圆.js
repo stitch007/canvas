@@ -1,0 +1,16 @@
+const canvas = document.querySelector('#canvas')
+const context = canvas.getContext('2d')
+context.beginPath()
+context.ellipse(100, 100, 60, 30, 0, 0, Math.PI * 2)
+context.closePath()
+context.stroke()
+
+context.beginPath()
+context.ellipse(250, 100, 60, 30, Math.PI * 0.5, 0, Math.PI * 1.5)
+context.stroke()
+context.closePath()
+
+context.beginPath()
+context.ellipse(400, 120, 60, 60, 0, Math.PI, Math.PI * 2)
+context.fill()
+context.closePath()

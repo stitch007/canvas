@@ -1,0 +1,5 @@
+const canvas = document.querySelector('#canvas')
+const context = canvas.getContext('2d')
+context.strokeRect(50, 50, 200, 150)
+context.fillRect(100, 150, 200, 100)
+context.clearRect(100, 175, 100, 50)
